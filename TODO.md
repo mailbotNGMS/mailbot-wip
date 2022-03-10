@@ -8,6 +8,7 @@
 - [ ] Fixare `rule.name` su Drawer
 - [ ] Fixare timer_time timer_unit (time indica il tempo da 1-59 / unit la misura da considerare tra H/m)
 - [ ] Fixare harmless_time/autosafe? harmless_unit (time indica il tempo da 1-59 / unit la misura da considerare tra H/m)
+- [ ] Aggiungere info il campo copia mail
 - [ ] aggiungere autosuspend
 - [ ] Fixare behavior autoclose: se autoclose=true tutti gli altri timer/keyword sono false
 - [ ] manca harmless_keyword_start nel FE (e i18n)
@@ -16,8 +17,11 @@
 - [ ] manca harmless_mail_count_unit nel FE (e i18n)
 - [ ] rimuovere submit sulla formOptional
 - [ ] aggiungere i btns funzionali del calendar
+- [ ] Aggiungere info ai campi del formOptional
+- [ ] Fixare responsive della dialog
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL)</b> ---|
 - [ ] aggiungere pulsanti actions nella tabella del sender
+- [ ] aggiungere downtime (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
 - [ ] pagina notifica oggetto `senders[] empty`
 - [ ] pagina errore 400
 - [ ] pagina errore 403
@@ -25,11 +29,13 @@
 - [ ] |--- <b>pagine di errore (GLOBAL)</b> ---|
 
 ### funzionalità client
-- [ ] rimuovere submit sulla formOptional 
-- [ ] :rotating_light: rivedere apertura sender su dev
-- [ ] fixare comportamento delle validazioni allo switch form
+- [ ] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
 - [ ] fixare comportamento della dialog per chiudere il form (show is not defined)
+- [ ] fixare il campo copia mail (keystroke e spazi-> vd trim)
+- [ ] rimuovere submit sulla formOptional 
+- [ ] fixare comportamento delle validazioni allo switch form
 - [ ] conservare dati durante lo switch della form (state mgm)
+- [ ] verificare perchè una volta creato il sender si apre a volte si a volte no.
 - [ ] Validazione match regex campo servizio/service
 - [ ] Validazione match regex campo coda/queue
 - [ ] Validazione match regex campo campiDinamici/DynamicField
