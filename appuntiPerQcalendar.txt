@@ -1,0 +1,15 @@
+    @change="onChange"
+    @moved="onMoved"
+    @click-date="onClickDate"
+    @click-time="onClickTime"
+    @click-interval="onClickInterval"
+    @click-head-intervals="onClickHeadIntervals"
+    @click-head-day="onClickHeadDay"
+    
+  // const onMoved = data => console.log('onMoved', data);
+  // const onChange = data => console.log('onChange', data);
+  // const onClickDate = data => console.log('onClickDate', data);
+  // const onClickTime = data => console.log('onClickTime', data);
+  // const onClickInterval = data => console.log('onClickInterval', data);
+  // const onClickHeadIntervals = data => console.log('onClickHeadIntervals', data);
+  // const onClickHeadDay = data => console.log('onClickHeadDay', data);
