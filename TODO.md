@@ -29,6 +29,7 @@
 - [ ] |--- <b>pagine di errore (GLOBAL)</b> ---|
 
 ### funzionalità client
+- [x] fix build (semgrep)
 - [ ] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
 - [ ] fixare comportamento della dialog per chiudere il form (show is not defined)
 - [ ] fixare il campo copia mail (keystroke e spazi-> vd trim)
