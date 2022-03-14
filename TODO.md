@@ -40,26 +40,30 @@
 - [ ] Validazione match regex campo coda/queue
 - [ ] Validazione match regex campo campiDinamici/DynamicField
 - [ ] Validazione match regex campo sla
-- [ ] eliminare una singola regola
-- [ ] eliminare sender e tutte le sue regole
 - [ ] |--- <b>validazione (GLOBAL)</b> ---|
 - [ ] |--- <b>Gestione comportamento calendar</b> ---|
 - [ ] |--- <b>gestione pagine errore</b> ---|
-- [ ] keycloak lo dobbiamo prevedere?
+- [ ] chiamate edit sender
+- [ ] chiamate delete sender (e delete rules)
+- [ ] chiamate edit rule
+- [ ] chiamate delete rule (singola)
+- [ ] |--- <b>chiamate CRUD (GLOBAL)</b> ---|
+- [ ] implementare keycloak
 
 ### gestione repo necessaria
-- [ ] aggiunta di sass
-- [ ] riconversione/adattamento del css attuale
+- [x] aggiunta di ~sass~ usiamo postcss 
+- [x] riconversione/adattamento del css attuale classi quasar
+- [ ] riconversione/adattamento del css attuale classi mailbot
 
 <hr>
 
 ### chiarimenti necessari
 - [x] le unità di misura di tempo con una lettera o due? // due
-- [ ] cosa fa precisamente autosafe
-- [ ] gli harmless_time sono gli autosafe_time?
+- [x] cosa fa precisamente autosafe //autosafe è l'harmless unit
+- [x] gli harmless_time sono gli autosafe_time? // si
 - [ ] cosa fa precisamente autosuspend?
 - [ ] se c'è attivo un timer gli altri sono disattivati?
-- [ ] a quale timer sono collegate le harmless_keyword o sono dei timer a sè?
+- [x] a quale timer sono collegate le harmless_keyword o sono dei timer a sè? //sono collegate agli harmless unit
 - [x] mailcount - quali mail conteggia? //conteggia e blocca le mail che hanno come ref lo stesso ticket
 
 
