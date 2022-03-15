@@ -13,12 +13,13 @@
 - [x] Fixare harmless_time/autosafe? harmless_unit (time indica il tempo da 1-59 / unit la misura da considerare tra H/m)
 - [x] Aggiungere info il campo copia mail
 - [x] aggiungere autosuspend
-- [ ] Fixare behavior autoclose: se autoclose=true tutti gli altri timer/keyword sono false
-- [ ] Fixare label per le time unit
-- [ ] manca harmless_keyword_start nel FE (e i18n)
-- [ ] manca harmless_keyword_stop nel FE (e i18n)
-- [ ] manca harmless_mail_count_time nel FE (e i18n)
-- [ ] manca harmless_mail_count_unit nel FE (e i18n)
+- [x] Fixare behavior autoclose: se autoclose=true tutti gli altri timer/keyword sono false
+- [x] Fixare label per le time unit
+- [x] manca harmless_keyword_start nel FE (e i18n)
+- [x] manca harmless_keyword_stop nel FE (e i18n)
+- [x] manca harmless_mail_count_time nel FE (e i18n)
+- [x] manca harmless_mail_count_unit nel FE (e i18n)
+- [x] manca harmless_mail_count_number nel FE (e i18n)
 - [ ] rimuovere submit sulla formOptional
 - [ ] aggiungere i btns funzionali del calendar
 - [ ] Aggiungere info ai campi del formOptional
