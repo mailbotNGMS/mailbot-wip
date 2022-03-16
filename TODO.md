@@ -2,7 +2,7 @@
 
 ###### drawer = sidebar
 
-###### pagine di errore(400 - 403 - 403) guardare altre repo
+###### pagine di errore(400 - 403 - 404) guardare altre repo
 
 <hr>
 
@@ -20,6 +20,7 @@
 - [x] manca harmless_mail_count_time nel FE (e i18n)
 - [x] manca harmless_mail_count_unit nel FE (e i18n)
 - [x] manca harmless_mail_count_number nel FE (e i18n)
+- [x] schiarire i disabled (opacity/colore)
 - [ ] rimuovere submit sulla formOptional
 - [ ] aggiungere i btns funzionali del calendar
 - [ ] Aggiungere info ai campi del formOptional
@@ -34,6 +35,7 @@
 - [ ] |--- <b>pagine di errore (GLOBAL)</b> ---|
 
 ### funzionalità client
+
 - [x] :rotating_light: fix build (semgrep)
 - [x] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
 - [x] fixare comportamento della dialog per chiudere il form (show is not defined)
