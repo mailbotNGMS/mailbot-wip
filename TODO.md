@@ -28,7 +28,7 @@
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL)</b> ---|
 - [ ] aggiungere pulsanti actions nella tabella del sender
 - [ ] aggiungere downtime (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
-- [ ] pagina notifica oggetto `senders[] empty`
+- [ ] pagina notifica quando l'oggetto `senders[] empty`
 - [ ] pagina errore 400
 - [ ] pagina errore 403
 - [ ] pagina errore 404
@@ -40,7 +40,8 @@
 - [x] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
 - [x] fixare comportamento della dialog per chiudere il form (show is not defined)
 - [x] fixare il campo mail in copia (keystroke e spazi-> vd trim) //no keystroke per ora
-- [ ] rimuovere submit sulla formOptional
+- [ ] rimuovere submit sulla formOptional (pag1)
+- [ ] accordare il reset allo step corrente
 - [ ] fixare comportamento delle validazioni allo switch form
 - [ ] conservare dati durante lo switch della form (state mgm)
 - [ ] verificare perchè una volta creato il sender si apre a volte si a volte no.
