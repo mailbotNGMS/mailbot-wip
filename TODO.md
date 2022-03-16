@@ -39,7 +39,7 @@
 - [x] :rotating_light: fix build (semgrep)
 - [x] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
 - [x] fixare comportamento della dialog per chiudere il form (show is not defined)
-- [ ] fixare il campo mail in copia (keystroke e spazi-> vd trim)
+- [x] fixare il campo mail in copia (keystroke e spazi-> vd trim) //no keystroke per ora
 - [ ] rimuovere submit sulla formOptional
 - [ ] fixare comportamento delle validazioni allo switch form
 - [ ] conservare dati durante lo switch della form (state mgm)
@@ -81,6 +81,8 @@
 ### ottimizzazioni stile
 
 - [ ] fixare trasparenza messaggio di chiusura nella dialog del form
+- [ ] nel campo mail in copia, contrassegnare di rosso i 'chips' errati
+- [ ] nel campo mail in copia attivare la modifica sul 'chips' errato
 - [ ] ottimizzare pulsanti di navigazione slider form
 - [ ] aggiungere icona tipo lente negli input di ricerca
 - [ ] centrare la i dentro icona info
