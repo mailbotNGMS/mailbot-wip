@@ -35,9 +35,9 @@
 
 ### funzionalità client
 - [x] :rotating_light: fix build (semgrep)
-- [ ] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
+- [x] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
 - [x] fixare comportamento della dialog per chiudere il form (show is not defined)
-- [ ] fixare il campo copia mail (keystroke e spazi-> vd trim)
+- [ ] fixare il campo mail in copia (keystroke e spazi-> vd trim)
 - [ ] rimuovere submit sulla formOptional
 - [ ] fixare comportamento delle validazioni allo switch form
 - [ ] conservare dati durante lo switch della form (state mgm)
