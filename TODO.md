@@ -21,12 +21,13 @@
 - [x] manca harmless_mail_count_unit nel FE (e i18n)
 - [x] manca harmless_mail_count_number nel FE (e i18n)
 - [x] schiarire i disabled (opacity/colore)
-- [ ] rimuovere submit sulla formOptional
+- [x] rimuovere submit sulla formOptional
 - [ ] aggiungere i btns funzionali del calendar
 - [ ] Aggiungere info ai campi del formOptional
 - [ ] Fixare responsive della dialog
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL)</b> ---|
 - [ ] aggiungere pulsanti actions nella tabella del sender
+- [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
 - [ ] aggiungere downtime (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
 - [ ] pagina notifica quando l'oggetto `senders[] empty`
 - [ ] pagina errore 400
@@ -38,13 +39,13 @@
 
 - [x] :rotating_light: fix build (semgrep)
 - [x] :rotating_light: rivedere apertura sender su dev ( selectd is not defined)
+- [x] verificare perchè una volta creato il sender si apre a volte si a volte no.
 - [x] fixare comportamento della dialog per chiudere il form (show is not defined)
 - [x] fixare il campo mail in copia (keystroke e spazi-> vd trim) //no keystroke per ora
-- [ ] rimuovere submit sulla formOptional (pag1)
+- [x] rimuovere submit sulla formOptional (pag1)
 - [ ] accordare il reset allo step corrente
-- [ ] fixare comportamento delle validazioni allo switch form
-- [ ] conservare dati durante lo switch della form (state mgm)
-- [ ] verificare perchè una volta creato il sender si apre a volte si a volte no.
+- [x] fixare comportamento delle validazioni allo switch form
+- [x] conservare dati durante lo switch della form (state mgm)
 - [ ] Validazione match regex campo servizio/service
 - [ ] Validazione match regex campo coda/queue
 - [ ] Validazione match regex campo campiDinamici/DynamicField
@@ -89,6 +90,7 @@
 - [ ] centrare la i dentro icona info
 
 ### ottimizzazioni funzionalità
+- [ ] migliorare il campo cartellamail (dialogForm) in modo da poter rieseguire una nuova ricerca (es tasto reset field)
 
 <hr>
 
