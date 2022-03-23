@@ -51,12 +51,13 @@
 - [ ] accordare il reset allo step corrente
 - [x] fixare comportamento delle validazioni allo switch form
 - [x] conservare dati durante lo switch della form (state mgm)
-- [ ] Validazione match regex campo servizio/service
-- [ ] Validazione match regex campo coda/queue
-- [ ] Validazione match regex campo campiDinamici/DynamicField
-- [ ] Validazione match regex campo sla
+- [x] Validazione match regex campo servizio/service
+- [x] Validazione match regex campo coda/queue
+- [x] Validazione match regex campo campiDinamici/DynamicField
+- [x] Validazione match regex campo sla
 - [ ] |--- <b>validazione (GLOBAL)</b> ---|
 - [ ] -----------------------------------------------------------
+- [ ] sender dei nuovi field (PUSH)
 - [ ] sviluppo comportamento calendar
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
