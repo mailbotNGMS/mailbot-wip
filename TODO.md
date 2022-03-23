@@ -24,6 +24,8 @@
 - [x] rimuovere submit sulla formOptional
 - [x] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
   [ ] -------------------------------------------------------------------------
+  [ ] :rotating_light: verificare perchè se clicco su number parte il submit
+  [ ] mancano delle chiavi
 - [ ] ridisegnare/ re-layout della formOptional
 - [ ] aggiungere responsive per la form (dopo refactroing css)
 - [ ] aggiungere un highlight per far capire quali sono le opzioni disponibili dopo un certo check
@@ -48,7 +50,7 @@
 - [x] fixare comportamento della dialog per chiudere il form (show is not defined)
 - [x] fixare il campo mail in copia (keystroke e spazi-> vd trim) //no keystroke per ora
 - [x] rimuovere submit sulla formOptional (pag1)
-- [ ] accordare il reset allo step corrente
+- [x] accordare il reset allo step corrente (pag1)
 - [x] fixare comportamento delle validazioni allo switch form
 - [x] conservare dati durante lo switch della form (state mgm)
 - [x] Validazione match regex campo servizio/service
@@ -57,6 +59,7 @@
 - [x] Validazione match regex campo sla
 - [ ] |--- <b>validazione (GLOBAL)</b> ---|
 - [ ] -----------------------------------------------------------
+- [ ] rivedre logica per il resete degli optional (ENUM) (pag2)
 - [ ] sender dei nuovi field (PUSH)
 - [ ] sviluppo comportamento calendar
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
