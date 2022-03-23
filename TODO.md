@@ -22,10 +22,15 @@
 - [x] manca harmless_mail_count_number nel FE (e i18n)
 - [x] schiarire i disabled (opacity/colore)
 - [x] rimuovere submit sulla formOptional
+- [x] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
+  [ ] -------------------------------------------------------------------------
+- [ ] ridisegnare/ re-layout della formOptional
+- [ ] aggiungere responsive per la form (dopo refactroing css)
+- [ ] aggiungere un highlight per far capire quali sono le opzioni disponibili dopo un certo check
 - [ ] aggiungere i btns funzionali del calendar
-- [ ] Aggiungere info ai campi del formOptional
-- [ ] Fixare responsive della dialog
-- [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL)</b> ---|
+- [ ] Aggiungere info ai campi del formOptional (risolvere problema)
+- [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
+  [ ] -------------------------------------------------------------------------
 - [ ] aggiungere pulsanti actions nella tabella del sender
 - [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
 - [ ] aggiungere downtime (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
@@ -51,8 +56,13 @@
 - [ ] Validazione match regex campo campiDinamici/DynamicField
 - [ ] Validazione match regex campo sla
 - [ ] |--- <b>validazione (GLOBAL)</b> ---|
-- [ ] |--- <b>Gestione comportamento calendar</b> ---|
+- [ ] -----------------------------------------------------------
+- [ ] sviluppo comportamento calendar
+- [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
+- [ ] -----------------------------------------------------------
+- [ ] pagine di errore
 - [ ] |--- <b>gestione pagine errore</b> ---|
+- [ ] -----------------------------------------------------------
 - [ ] chiamate edit sender
 - [ ] chiamate delete sender (e delete rules)
 - [ ] chiamate edit rule
@@ -85,7 +95,7 @@
 - [ ] fixare trasparenza messaggio di chiusura nella dialog del form
 - [ ] nel campo mail in copia, contrassegnare di rosso i 'chips' errati
 - [ ] nel campo mail in copia attivare la modifica sul 'chips' errato
-- [ ] ottimizzare pulsanti di navigazione slider form
+- [x] ottimizzare pulsanti di navigazione slider form
 - [ ] aggiungere icona tipo lente negli input di ricerca
 - [ ] centrare la i dentro icona info
 
