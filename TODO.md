@@ -22,21 +22,24 @@
 - [x] manca harmless_mail_count_number nel FE (e i18n)
 - [x] schiarire i disabled (opacity/colore)
 - [x] rimuovere submit sulla formOptional
-- [x] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
-  [ ] -------------------------------------------------------------------------
-  [ ] :rotating_light: verificare perchè se clicco su number parte il submit
-  [ ] mancano delle chiavi
+- [x] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE1)</b> ---|
+- [ ] -------------------------------------------------------------------------
+- [ ] :rotating_light: verificare perchè se clicco su number parte il submit
+- [ ] mancano delle chiavi
 - [ ] ridisegnare/ re-layout della formOptional
-- [ ] aggiungere responsive per la form (dopo refactroing css)
+- [ ] aggiungere responsive per la form (dopo refactoring css)
 - [ ] aggiungere un highlight per far capire quali sono le opzioni disponibili dopo un certo check
 - [ ] aggiungere i btns funzionali del calendar
-- [ ] Aggiungere info ai campi del formOptional (risolvere problema)
+- [ ] Aggiungere info ai campi del formOptional (risolvere problema con il CSS)
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
-  [ ] -------------------------------------------------------------------------
+- [ ] -------------------------------------------------------------------------
 - [ ] aggiungere pulsanti actions nella tabella del sender
+- [ ] aggiungere expansion sulla singola regola con layout (che non c'è / da)
 - [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
-- [ ] aggiungere downtime (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
 - [ ] pagina notifica quando l'oggetto `senders[] empty`
+- [ ] aggiungere downtime (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
+- [ ] |--- <b>Tabella SENDERS E RULES (GLOBAL PARTE2)</b> ---|
+- [ ] -------------------------------------------------------------------------
 - [ ] pagina errore 400
 - [ ] pagina errore 403
 - [ ] pagina errore 404
@@ -57,21 +60,25 @@
 - [x] Validazione match regex campo coda/queue
 - [x] Validazione match regex campo campiDinamici/DynamicField
 - [x] Validazione match regex campo sla
-- [ ] |--- <b>validazione (GLOBAL)</b> ---|
+- [x] |--- <b>validazione (GLOBAL STEP1)</b> ---|
 - [ ] -----------------------------------------------------------
-- [ ] rivedre logica per il resete degli optional (ENUM) (pag2)
-- [ ] sender dei nuovi field (PUSH)
+- [ ] rivedere logica per il reset degli optional (ENUM) (pag2)
+- [ ] sender dei nuovi field (PUSH in PAYLOAD)
+- [ ] fixare comportamento dei q-input number
 - [ ] sviluppo comportamento calendar
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
-- [ ] pagine di errore
-- [ ] |--- <b>gestione pagine errore</b> ---|
+- [ ] Aggiungere logica del reset (editing rules)
+- [ ] Aggiungere logica della delete tabella (delete rules) //DELETE
+- [ ] Aggiungere logica del submit (editing rules) //PATCH
+- [ ] |--- <b>Logica Tabella (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
 - [ ] chiamate edit sender
 - [ ] chiamate delete sender (e delete rules)
-- [ ] chiamate edit rule
-- [ ] chiamate delete rule (singola)
 - [ ] |--- <b>chiamate CRUD (GLOBAL)</b> ---|
+- [ ] -----------------------------------------------------------
+- [ ] getione pagine errore
+- [ ] |--- <b>gestione pagine errore</b> ---|
 - [ ] implementare keycloak
 
 ### gestione repo necessaria
@@ -88,7 +95,7 @@
 - [x] cosa fa precisamente autosafe //autosafe è l'harmless unit
 - [x] gli harmless_time sono gli autosafe_time? // si
 - [ ] cosa fa precisamente autosuspend?
-- [ ] se c'è attivo un timer gli altri sono disattivati?
+- [x] se c'è attivo un timer gli altri sono disattivati? //ok secondo lo schema concordato
 - [x] a quale timer sono collegate le harmless_keyword o sono dei timer a sè? //sono collegate agli harmless unit
 - [x] mailcount - quali mail conteggia? //conteggia e blocca le mail che hanno come ref lo stesso ticket
 
