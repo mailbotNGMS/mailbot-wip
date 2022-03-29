@@ -11,15 +11,17 @@
 - [x] :white_check_mark: [sprint 7](./Sprint%207)
 - [x] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE1)</b> ---|
 - [ ] -------------------------------------------------------------------------
-- [ ] :rotating_light: verificare perchè se clicco su number parte il submit
-- [ ] mancano delle chiavi
+- [ ] ridisegnare form per UX
 - [ ] ridisegnare/ re-layout della formOptional
 - [ ] aggiungere responsive per la form (dopo refactoring css)
-- [ ] aggiungere un highlight per far capire quali sono le opzioni disponibili dopo un certo check
+- [ ] Ridisegnare Colomun Checkbox
+- [ ] rivedere la logica tutti i BTN info (alcuni non funzionano) / da completare
 - [ ] aggiungere i btns funzionali del calendar
-- [ ] Aggiungere info ai campi del formOptional (risolvere problema con il CSS)
 - [ ] aggiungere checkbox del downtime ES: Abiltato[true,false] - Date_start: 23/03 Time Start: 12:54 Date_End: 24/03 Time End: 12:54 (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
-- [ ] rivedere la logica per il tooltip del mailcount system (cambiare model di ref)
+- [x] Aggiungere info ai campi del formOptional (risolvere problema con il CSS)
+- [x] :rotating_light: verificare perchè se clicco su number parte il submit
+- [x] mancano delle chiavi
+- [x] rivedere la logica per il tooltip del mailcount system (cambiare model di ref)
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
 - [ ] -------------------------------------------------------------------------
 - [ ] aggiungere pulsanti actions nella tabella del sender
@@ -38,20 +40,24 @@
 - [x] :white_check_mark: [sprint 7](./Sprint%207)
 - [x] |--- <b>validazione (GLOBAL STEP1)</b> ---|
 - [ ] -----------------------------------------------------------
+- [x] Refactoring - unificati nomi dei campi con ENUM-field
+- [x] sender dei nuovi field (PUSH in PAYLOAD)
+- [x] fixare i valori dei filtri (VALUE of field select)
+- [x] fixare i submit della form
+- [x] aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
+- [ ] aggiungere logica autoesclusione rispetto al downtime,
 - [ ] rivedere logica per il reset degli optional (ENUM) (pag2)
-- [ ] sender dei nuovi field (PUSH in PAYLOAD)
+- [ ] fixare l'azione required (asterisco) dei fields
+- [ ] Non stampare i sender se le sue regole sono empty
 - [ ] fixare comportamento dei q-input number
 - [ ] sviluppo comportamento calendar
-- [ ] fixare il valori dei filtri (VALUE of field select)
-- [ ] fixare il submit della form
-- [ ] aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
-- [ ] aggiungere logica autoesclusione rispetto al downtime,
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
 - [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
 - [ ] Aggiungere logica del reset (editing rules)
 - [ ] Aggiungere logica della delete tabella (delete rules) //DELETE
-- [ ] Aggiungere logica del submit (editing rules) //PATCH
+- [ ] Aggiungere logica dell'editing (editing rules) //PATCH
+- [ ] Aggiungere logica del clone sulla rules (clone rules) //CLONE
 - [ ] |--- <b>Logica Tabella (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
 - [ ] chiamate edit sender
