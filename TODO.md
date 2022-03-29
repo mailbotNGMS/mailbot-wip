@@ -51,6 +51,7 @@
 - [ ] Non stampare i sender se le sue regole sono empty
 - [ ] fixare comportamento dei q-input number
 - [ ] sviluppo comportamento calendar
+- [ ] attivare lo switch della lingua per i test
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
 - [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
