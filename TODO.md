@@ -40,11 +40,7 @@
 - [x] :white_check_mark: [sprint 7](./Sprint%207)
 - [x] |--- <b>validazione (GLOBAL STEP1)</b> ---|
 - [ ] -----------------------------------------------------------
-- [x] Refactoring - unificati nomi dei campi con ENUM-field
-- [x] sender dei nuovi field (PUSH in PAYLOAD)
-- [x] fixare i valori dei filtri (VALUE of field select)
-- [x] fixare i submit della form
-- [x] aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
+- [ ] REOPEN - (rivedere nel submit vengono considerate come true anche se unchecked) // aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
 - [ ] aggiungere logica autoesclusione rispetto al downtime,
 - [ ] rivedere logica per il reset degli optional (ENUM) (pag2)
 - [ ] fixare l'azione required (asterisco) dei fields
@@ -52,6 +48,10 @@
 - [ ] fixare comportamento dei q-input number
 - [ ] sviluppo comportamento calendar
 - [ ] attivare lo switch della lingua per i test
+- [x] Refactoring - unificati nomi dei campi con ENUM-field
+- [x] sender dei nuovi field (PUSH in PAYLOAD)
+- [x] fixare i valori dei filtri (VALUE of field select)
+- [x] fixare i submit della form
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
 - [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
