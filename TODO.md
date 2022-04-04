@@ -24,8 +24,9 @@
 - [x] rivedere la logica per il tooltip del mailcount system (cambiare model di ref)
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
 - [ ] -------------------------------------------------------------------------
+- [ ] :rotating_light: Bloccare prima colonna 
 - [ ] aggiungere pulsanti actions nella tabella del sender
-- [ ] aggiungere expansion sulla singola regola con layout (che non c'è / da)
+- [ ] aggiungere expansion sulla singola regola con layout (che non c'è / da) - NO rivisto in call usiamo ancora la dialog
 - [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
 - [ ] pagina notifica quando l'oggetto `senders[] empty`
 - [ ] |--- <b>Tabella SENDERS E RULES (GLOBAL PARTE2)</b> ---|
@@ -48,6 +49,7 @@
 - [ ] fixare comportamento dei q-input number
 - [ ] sviluppo comportamento calendar
 - [ ] attivare lo switch della lingua per i test
+- [ ] Serve un watch sulla dialog per cambiare il titolo
 - [x] Refactoring - unificati nomi dei campi con ENUM-field
 - [x] sender dei nuovi field (PUSH in PAYLOAD)
 - [x] fixare i valori dei filtri (VALUE of field select)
@@ -59,6 +61,7 @@
 - [ ] Aggiungere logica della delete tabella (delete rules) //DELETE
 - [ ] Aggiungere logica dell'editing (editing rules) //PATCH
 - [ ] Aggiungere logica del clone sulla rules (clone rules) //CLONE
+- [ ] Refactoring ShowConfirm
 - [ ] |--- <b>Logica Tabella (GLOBAL STEP2)</b> ---|
 - [ ] -----------------------------------------------------------
 - [ ] chiamate edit sender
