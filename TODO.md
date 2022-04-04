@@ -10,11 +10,9 @@
 
 - [x] :white_check_mark: [sprint 7](./Sprint%207)
 - [x] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE1)</b> ---|
-- [ ] -------------------------------------------------------------------------
-- [ ] ridisegnare form per UX
-- [ ] ridisegnare/ re-layout della formOptional
+- [ ] ***
+- [ ] ridisegnare form per UX (call con Andrea)
 - [ ] aggiungere responsive per la form (dopo refactoring css)
-- [ ] Ridisegnare Colomun Checkbox
 - [ ] rivedere la logica tutti i BTN info (alcuni non funzionano) / da completare
 - [ ] aggiungere i btns funzionali del calendar
 - [ ] aggiungere checkbox del downtime ES: Abiltato[true,false] - Date_start: 23/03 Time Start: 12:54 Date_End: 24/03 Time End: 12:54 (enable, start_date, start_end, time, unit) ... / calendario() -> restituisce timestamp?
@@ -22,15 +20,15 @@
 - [x] :rotating_light: verificare perchè se clicco su number parte il submit
 - [x] mancano delle chiavi
 - [x] rivedere la logica per il tooltip del mailcount system (cambiare model di ref)
+- [x] aggiungere pulsanti actions nella tabella del sender
+- [x] pagina notifica quando l'oggetto `senders[] empty`
 - [ ] |--- <b>rifinire e allineare stile FormOptional (GLOBAL PARTE2)</b> ---|
-- [ ] -------------------------------------------------------------------------
-- [ ] :rotating_light: Bloccare prima colonna 
-- [ ] aggiungere pulsanti actions nella tabella del sender
-- [ ] aggiungere expansion sulla singola regola con layout (che non c'è / da) - NO rivisto in call usiamo ancora la dialog
+- [ ] ***
+- [ ] Ridisegnare Column Checkbox
+- [ ] :rotating_light: Bloccare prima colonna
 - [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
-- [ ] pagina notifica quando l'oggetto `senders[] empty`
 - [ ] |--- <b>Tabella SENDERS E RULES (GLOBAL PARTE2)</b> ---|
-- [ ] -------------------------------------------------------------------------
+- [ ] ***
 - [ ] pagina errore 400
 - [ ] pagina errore 403
 - [ ] pagina errore 404
@@ -40,34 +38,34 @@
 
 - [x] :white_check_mark: [sprint 7](./Sprint%207)
 - [x] |--- <b>validazione (GLOBAL STEP1)</b> ---|
-- [ ] -----------------------------------------------------------
+- [ ] ***
 - [ ] REOPEN - (rivedere nel submit vengono considerate come true anche se unchecked) // aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
 - [ ] aggiungere logica autoesclusione rispetto al downtime,
 - [ ] rivedere logica per il reset degli optional (ENUM) (pag2)
 - [ ] fixare l'azione required (asterisco) dei fields
 - [ ] Non stampare i sender se le sue regole sono empty
-- [ ] fixare comportamento dei q-input number
 - [ ] sviluppo comportamento calendar
-- [ ] attivare lo switch della lingua per i test
 - [ ] Serve un watch sulla dialog per cambiare il titolo
+- [x] fixare comportamento dei q-input number
 - [x] Refactoring - unificati nomi dei campi con ENUM-field
 - [x] sender dei nuovi field (PUSH in PAYLOAD)
 - [x] fixare i valori dei filtri (VALUE of field select)
 - [x] fixare i submit della form
 - [ ] |--- <b>validazione (GLOBAL STEP2)</b> ---|
-- [ ] -----------------------------------------------------------
-- [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
-- [ ] Aggiungere logica del reset (editing rules)
-- [ ] Aggiungere logica della delete tabella (delete rules) //DELETE
-- [ ] Aggiungere logica dell'editing (editing rules) //PATCH
-- [ ] Aggiungere logica del clone sulla rules (clone rules) //CLONE
-- [ ] Refactoring ShowConfirm
+- [ ] ***
+- [ ] Aggiungere logica del reset (nell'editing rules) Hide btn in editing
+- [x] Aggiungere logica della delete tabella (delete rules) //DELETE
+- [x] Aggiungere logica dell'editing (editing rules) //PATCH
+- [x] Aggiungere logica del clone sulla rules (clone rules) //CLONE
 - [ ] |--- <b>Logica Tabella (GLOBAL STEP2)</b> ---|
-- [ ] -----------------------------------------------------------
+- [ ] ***
+- [ ] attivare lo switch della lingua per i test
+- [ ] Refactoring ShowConfirm
 - [ ] chiamate edit sender
+- [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
 - [ ] chiamate delete sender (e delete rules)
 - [ ] |--- <b>chiamate CRUD (GLOBAL)</b> ---|
-- [ ] -----------------------------------------------------------
+- [ ] ***
 - [ ] getione pagine errore
 - [ ] |--- <b>gestione pagine errore</b> ---|
 - [ ] implementare keycloak
@@ -96,6 +94,7 @@
 - [ ] centrare la i dentro icona info
 
 ### ottimizzazioni funzionalità
+
 - [ ] migliorare il campo cartellamail (dialogForm) in modo da poter rieseguire una nuova ricerca (es tasto reset field)
 
 <hr>
