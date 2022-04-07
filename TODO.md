@@ -20,7 +20,7 @@
 - [ ] mancano i tooltip info sulle checkbox
 - [ ] aggiungere i btns funzionali del calendar
 - [ ] aggiungere responsive per la form (dopo refactoring css) / dovrebbe essere a posto (rivedere per il calendario)
-- [ ] :rotating_light: Nascondere la lista delle folder quando scrollo
+- [ ] :rotating_light: Nascondere la lista delle folder quando scrollo // ??forse no??
 - [ ] :rotating_light: Bloccare prima colonna
 - [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
 editin, il duplicate e il create)
@@ -40,32 +40,34 @@ editin, il duplicate e il create)
 - [x] :white_check_mark: [sprint 8](./Sprint%208)
 - [ ] |--- <b>Form Otpional</b> ---|
 - [ ] -----------------------------------------------------------------------
-- [ ] Manca tutta la logica dei toggle - toggle su tutte regole
-- [ ] toggle sulla singola regola
-- [ ] Manca il livello - al momento è un input senza icona di sbumit (submit all'invio)
-- [ ] Aggiungere la logica del livello quando vado a duplicare una regola
-- [ ] Manca il focus alla regola (ad esempio un highlight)
-- [ ] Necessari i test per lo scroll nelle regole del sender
-- [ ] Fixare L'editing non funziona in questo stato: apro new rule vado a pag2 chiudo apro l'editing non ho alcun dato
-- [ ] Riportare il form a pag 1 ogni volta che si chiude
-- [ ] Calendario mutli-selezione al drag
-- [ ] Collegare il calendario al payload (nome campo + value---> dovrà essere un array di numeri + test)
-- [ ] Date del downtime test di funzionamento con le varie (con l'
-- [ ] Aggiungere logica del reset (nell'editing rules) Hide btn in editing
+- [ ] SENDER LIST:Manca tutta la logica dei toggle - toggle su tutte regole
+- [ ] SENDER + RULE_LIST: toggle sulla singola regola
+- [ ] SENDER_LIST: Aggiungere descrizione sender (chiamata patch)
+- [ ] SENDER LIST: Manca il focus alla regola (ad esempio un highlight)
+- [ ] SENDER LIST: Necessari i test per lo scroll nelle regole del sender
+- [ ] SENDER_LIST: Non stampare i sender se le sue regole sono empty
+- [ ] SENDER_LIST: chiamate edit sender
+- [ ] SENDER_LIST: chiamate delete sender (e delete rules)
+- [ ] SENDER_LIST+FORMDIALOG_NEW+RULE: Aggiungere il sender nella dialog quando premo il + sul rispettivo
+- [ ] RULE_LEVEL: Manca il livello - al momento è un input senza icona di submit (submit all'invio)
+- [ ] RULE_LEVEL: Aggiungere la logica del livello quando vado a duplicare una regola
+- [ ] FORM_GLOBAL: fixare l'azione required (asterisco) dei fields
+- [ ] FORM_EDITING: Controllare la chiamata get "nell'editing"
+- [ ] FORM_EDITING: Fixare L'editing non funziona in questo stato: apro new rule vado a pag2 chiudo apro l'editing non ho alcun dato
+- [ ] FORM_EDITING: aggiungere asterisco per KEYWORD (solo per l'opzione MUST MATCH), pipe nell'harmless
+- [ ] FORM_EDTING_GET: rivedere logica per il reset degli optional (ENUM la lista nella chiamata get) (pag2) da vedere insieme
+- [ ] FORM_CREATE: Riportare il form a pag 1 ogni volta che si chiude
+- [ ] FORM_RESET: Aggiungere logica del reset (nell'editing rules) Hide btn in editing
+- [ ] CALENDAR_FORM: Calendario multi-selezione al drag
+- [ ] CALENDAR_FORM: Collegare il calendario al payload (nome campo + value---> dovrà essere un array di numeri + test)
+- [ ] CALENDAR_FORM: Collegare il calendario al payload (nome campo + value---> dovrà essere un array di numeri + test)
+- [ ] CALENDAR : sviluppo comportamento calendar // parziale
 - [ ] REOPEN - (rivedere nel submit vengono considerate come true anche se unchecked) // aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
-- [ ] aggiungere logica autoesclusione rispetto al downtime,
-- [ ] rivedere logica per il reset degli optional (ENUM la lista nella chiamata get) (pag2) da vedere insieme
-- [ ] Non stampare i sender se le sue regole sono empty
-- [ ] sviluppo comportamento calendar // parziale
-- [ ] Controllare la chiamata get "nell'editing"
-- [ ] fixare l'azione required (asterisco) dei fields
-- [ ] fixare la chiamata dei senders
+- [ ] DOWNTIME: Date del downtime test di funzionamento con le varie logiche (create, duplicate)
+- [ ] DOWNTIME: Nella lista dei sender attivare l'highlight per il downtime (nel tempo in cui agisce la regola)
+- [ ] DOWNTIME: aggiungere logica autoesclusione rispetto al downtime,
 - [ ] attivare lo switch della lingua per i test
-- [ ] Refactoring ShowConfirm
-- [ ] chiamate edit sender
-- [ ] Aggiungere descrizione sender
-- [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
-- [ ] chiamate delete sender (e delete rules)
+- [ ] Refactoring ShowConfirm da uniformale alla logica delle dialog
 - [ ] |--- <b>chiamate CRUD (GLOBAL)</b> ---|
 - [ ] -----------------------------------------------------------------------
 - [ ] getione pagine errore
@@ -100,6 +102,7 @@ editin, il duplicate e il create)
 ### ottimizzazioni funzionalità
 
 - [ ] migliorare il campo cartellamail (dialogForm) in modo da poter rieseguire una nuova ricerca (es tasto reset field)
+- [ ] far vedere se tra le rules c'è almeno un rule con il downtime
 
 <hr>
 

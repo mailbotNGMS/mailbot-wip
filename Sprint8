@@ -27,6 +27,7 @@
 - [x] pagina notifica quando l'oggetto `senders[] empty`
 - [x] rivedere la logica tutti i BTN info (alcuni non funzionano) / da completare
 
+
 ### funzionalità client
 
 - [x] :white_check_mark: [sprint 7](./Sprint%207)
@@ -41,6 +42,7 @@
 - [x] Aggiungere logica della delete tabella (delete rules) //DELETE
 - [x] Aggiungere logica dell'editing (editing rules) //PATCH
 - [x] Aggiungere logica del clone sulla rules (clone rules) //CLONE
+- [x] SENDER_LIST: fixare la chiamata dei senders (ok rimessa la patch del sender)
 - [ ] |--- <b>Logica Tabella (GLOBAL STEP2)</b> ---|
 - [x] implementare keycloak
 - [ ] -----------------------------------------------------------------------
