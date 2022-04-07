@@ -23,6 +23,7 @@
 - [ ] :rotating_light: Nascondere la lista delle folder quando scrollo
 - [ ] :rotating_light: Bloccare prima colonna
 - [ ] fixare width tabella (referrer to checkColumns) -> la visibility ha la precedenza quindi si devono vedere le colonne anche se sono empty
+editin, il duplicate e il create)
 - [ ] Ridisegnare Column Checkbox
 - [ ] |--- <b>Tabella SENDERS E RULES (GLOBAL PARTE2)</b> ---|
 - [ ] -----------------------------------------------------------------------
@@ -39,10 +40,21 @@
 - [x] :white_check_mark: [sprint 8](./Sprint%208)
 - [ ] |--- <b>Form Otpional</b> ---|
 - [ ] -----------------------------------------------------------------------
+- [ ] Manca tutta la logica dei toggle - toggle su tutte regole
+- [ ] toggle sulla singola regola
+- [ ] Manca il livello - al momento è un input senza icona di sbumit (submit all'invio)
+- [ ] Aggiungere la logica del livello quando vado a duplicare una regola
+- [ ] Manca il focus alla regola (ad esempio un highlight)
+- [ ] Necessari i test per lo scroll nelle regole del sender
+- [ ] Fixare L'editing non funziona in questo stato: apro new rule vado a pag2 chiudo apro l'editing non ho alcun dato
+- [ ] Riportare il form a pag 1 ogni volta che si chiude
+- [ ] Calendario mutli-selezione al drag
+- [ ] Collegare il calendario al payload (nome campo + value---> dovrà essere un array di numeri + test)
+- [ ] Date del downtime test di funzionamento con le varie (con l'
 - [ ] Aggiungere logica del reset (nell'editing rules) Hide btn in editing
 - [ ] REOPEN - (rivedere nel submit vengono considerate come true anche se unchecked) // aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
 - [ ] aggiungere logica autoesclusione rispetto al downtime,
-- [ ] rivedere logica per il reset degli optional (ENUM) (pag2)
+- [ ] rivedere logica per il reset degli optional (ENUM la lista nella chiamata get) (pag2) da vedere insieme
 - [ ] Non stampare i sender se le sue regole sono empty
 - [ ] sviluppo comportamento calendar // parziale
 - [ ] Controllare la chiamata get "nell'editing"
@@ -51,6 +63,7 @@
 - [ ] attivare lo switch della lingua per i test
 - [ ] Refactoring ShowConfirm
 - [ ] chiamate edit sender
+- [ ] Aggiungere descrizione sender
 - [ ] Aggiungere il sender nella dialog quando premo il + sul rispettivo
 - [ ] chiamate delete sender (e delete rules)
 - [ ] |--- <b>chiamate CRUD (GLOBAL)</b> ---|
