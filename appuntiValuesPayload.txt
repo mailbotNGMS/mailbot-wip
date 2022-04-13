@@ -1,0 +1,10 @@
+values = {
+        ...values,
+        folder_name: 'INBOX/POS1',
+        sender: 'giulietta.montenegro@hotmail.it',
+        receiver: 'test7@test.com',
+        service: '[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 4 Low',
+        dynamic_fields: 'ITSMImpact=3 Category=8',
+        queue: '[1] Technical Support::TSE-DUM',
+        sla: '3 High (7x24 / 30m)'
+      };
