@@ -40,14 +40,13 @@ editin, il duplicate e il create)
 - [x] :white_check_mark: [sprint 8](./Sprint%208)
 - [ ] |--- <b>Form Otpional</b> ---|
 - [ ] -----------------------------------------------------------------------
+- [ ] LOGOUT DA MAILBOT: manca il btn di logout
 - [ ] SENDER LIST:Manca tutta la logica dei toggle - toggle su tutte regole
 - [ ] SENDER + RULE_LIST: toggle sulla singola regola
-- [ ] SENDER_LIST: Aggiungere descrizione sender (chiamata patch)
+- [x] SENDER_LIST: Aggiungere descrizione sender (chiamata patch)
 - [ ] SENDER LIST: Manca il focus alla regola (ad esempio un highlight)
 - [ ] SENDER LIST: Necessari i test per lo scroll nelle regole del sender
 - [ ] SENDER_LIST: Non stampare i sender se le sue regole sono empty
-- [ ] SENDER_LIST: chiamate edit sender
-- [ ] SENDER_LIST: chiamate delete sender (e delete rules)
 - [ ] SENDER_LIST+FORMDIALOG_NEW+RULE: Aggiungere il sender nella dialog quando premo il + sul rispettivo
 - [ ] RULE_LEVEL: Manca il livello - al momento è un input senza icona di submit (submit all'invio)
 - [ ] RULE_LEVEL: Aggiungere la logica del livello quando vado a duplicare una regola
@@ -57,9 +56,9 @@ editin, il duplicate e il create)
 - [ ] FORM_EDITING: aggiungere asterisco per KEYWORD (solo per l'opzione MUST MATCH), pipe nell'harmless
 - [ ] FORM_EDTING_GET: rivedere logica per il reset degli optional (ENUM la lista nella chiamata get) (pag2) da vedere insieme
 - [ ] FORM_CREATE: Riportare il form a pag 1 ogni volta che si chiude
+- [ ] FORM_CREATE: Validazione campi 
 - [ ] FORM_RESET: Aggiungere logica del reset (nell'editing rules) Hide btn in editing
 - [ ] CALENDAR_FORM: Calendario multi-selezione al drag
-- [ ] CALENDAR_FORM: Collegare il calendario al payload (nome campo + value---> dovrà essere un array di numeri + test)
 - [ ] CALENDAR_FORM: Collegare il calendario al payload (nome campo + value---> dovrà essere un array di numeri + test)
 - [ ] CALENDAR : sviluppo comportamento calendar // parziale
 - [ ] REOPEN - (rivedere nel submit vengono considerate come true anche se unchecked) // aggiungere logica autoesclusione checkbox harmless, mailcount, autosuspend,
