@@ -1,19 +1,23 @@
 const schemas = [
     object({
-      folder_name: string(),
-      search_body_enabled: boolean(),
-      sender: string(),
-      receiver: string(),
-      cc: array().of(string().email()),
-      service: string(),
-      ci: string(),
-      queue: string(),
-      dynamic_fields: string(),
-      sla: string(),
-      procedure: string()
+      rule: object({
+        folder_name: string(),
+        search_body_enabled: boolean(),
+        sender: string(),
+        receiver: string(),
+        cc: array().of(string().email()),
+        service: string(),
+        ci: string(),
+        queue: string(),
+        dynamic_fields: string(),
+        sla: string(),
+        procedure: string()
+      })
     }),
     object({
-      filterObject: string(),
-      keywords: string()
+      rule: object({
+        search_subject_filter: string(),
+        search_subject_keyword: string()
+      })
     })
   ];
